@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include <cassert>
 
 int calculatePriority(std::string elf1, std::string elf2, std::string elf3)
 {
