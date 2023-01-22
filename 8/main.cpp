@@ -5,8 +5,6 @@
 #include <vector>
 #include <algorithm>
 
-#include "../aoclib.hpp"
-
 std::vector<std::vector<int>> setupGrid()
 {
     std::ifstream inf {"input.txt"};
