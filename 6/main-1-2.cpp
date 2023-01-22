@@ -3,7 +3,7 @@
 #include <string>
 #include <unordered_set>
 #include <deque>
-#include <bits/stdc++.h>
+#include <sstream>
 
 bool allUnique(std::deque<char>& dque, int size)
 {

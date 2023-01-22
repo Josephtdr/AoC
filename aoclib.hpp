@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include <bits/stdc++.h>
+#include <sstream>
 #include <string>
 
 void splitString(std::vector<std::string>& result, std::string str, char delimiter);
