@@ -46,7 +46,6 @@ int main()
     std::ifstream inf {"input.txt"};
 
     std::vector<Coord> rope(10);
-
     
     const std::unordered_map<char, Coord> directions{
         {'U', {0,1}}, {'D', {0,-1}}, {'L', {-1,0}}, {'R', {1,0}},
