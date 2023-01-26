@@ -26,6 +26,19 @@ std::vector<std::string> splitString(std::string str, char delimiter)
     return result;
 }
 
+std::vector<std::string> splitString(std::string str, std::string delimiter)
+{
+    size_t pos = 0;
+    std::vector<std::string> result {};
+
+    while ((pos = str.find(delimiter)) != std::string::npos) {
+        result.push_back(str.substr(0, pos));
+        str.erase(0, pos + delimiter.length());
+    }
+    result.push_back(str);
+    return result;
+}
+
 void splitString(std::vector<std::string>& result, std::string str, int len)
 {
     for (int i {}; i < str.length(); i+= len)
